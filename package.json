@@ -1,14 +1,19 @@
 {
+  "homepage": "http://Parker-D5.github.io/bar-chart-cert",
   "name": "bar-chart-cert",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "s": "^1.0.0",
     "vite": "^4.4.5"
   },
   "dependencies": {
