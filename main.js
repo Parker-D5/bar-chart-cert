@@ -1,4 +1,4 @@
-import "./style.scss";
+import "./index.scss";
 import * as d3 from "/node_modules/d3";
 
 function DrawBar(dataset) {
